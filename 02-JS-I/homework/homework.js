@@ -28,75 +28,75 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str
+  return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  suma = (x + y)
-  return suma
+  suma = (x + y);
+  return suma;
 }
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  resta = (x - y)
-  return resta
+  resta = (x - y);
+  return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  multiplica = (x * y)
-  return multiplica
+  multiplica = (x * y);
+  return multiplica;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  divide = (x / y)
-  return divide
+  divide = (x / y);
+  return divide;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  sonIguales = (x == y)
-  return sonIguales
+  sonIguales = (x == y);
+  return sonIguales;
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  tienenMismaLongitud = (str1.length == str2.length)
-  return tienenMismaLongitud
+  tienenMismaLongitud = (str1.length == str2.length);
+  return tienenMismaLongitud;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  menosquenoventa = num < 90
-  return menosquenoventa
+  menosquenoventa = num < 90;
+  return menosquenoventa;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  mayorQueCincuenta = num > 50
-  return mayorQueCincuenta
+  mayorQueCincuenta = num > 50;
+  return mayorQueCincuenta;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  obtenerResto = x % y
-  return obtenerResto
+  obtenerResto = x % y;
+  return obtenerResto;
 }
 
 function esPar(num) {
@@ -104,10 +104,10 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num % 2 == 0) {
-    esPar = true
+    esPar = true;
   } else {
     esPar = false }
-  return esPar
+  return esPar;
 }
 
 function esImpar(num) {
@@ -115,78 +115,78 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num % 2 != 0) {
-    esImpar = true
+    esImpar = true;
   } else {
-    esImpar = false
+    esImpar = false;
   }
-  return esImpar
+  return esImpar;
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  elevarAlCuadrado = Math.pow(num,2)
-  return elevarAlCuadrado
+  elevarAlCuadrado = Math.pow(num,2);
+  return elevarAlCuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  elevarAlCubo = Math.pow(num,3)
-  return elevarAlCubo
+  elevarAlCubo = Math.pow(num,3);
+  return elevarAlCubo;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  elevar = Math.pow(num,exponent)
-  return elevar
+  elevar = Math.pow(num,exponent);
+  return elevar;
 }
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
-  redondearNumero = Math.round(num)
-  return redondearNumero
+  redondearNumero = Math.round(num);
+  return redondearNumero;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
-  redondearHaciaArriba = Math.ceil(num)
-  return redondearHaciaArriba
+  redondearHaciaArriba = Math.ceil(num);
+  return redondearHaciaArriba;
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  agregarSimboloExclamacion = str + "!"
-  return agregarSimboloExclamacion
+  agregarSimboloExclamacion = str + "!";
+  return agregarSimboloExclamacion;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  combinarNombres = nombre + " " + apellido
-  return combinarNombres
+  combinarNombres = nombre + " " + apellido;
+  return combinarNombres;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  obtenerSaludo = "Hola " + nombre + "!"
-  return obtenerSaludo
+  obtenerSaludo = "Hola " + nombre + "!";
+  return obtenerSaludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
-  obtenerAreaRectangulo = alto*ancho
-  return obtenerAreaRectangulo
+  obtenerAreaRectangulo = alto*ancho;
+  return obtenerAreaRectangulo;
 }
 
 

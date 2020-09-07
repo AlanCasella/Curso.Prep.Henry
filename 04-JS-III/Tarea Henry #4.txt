@@ -1,0 +1,4 @@
+Arrays: Array es una forma diferente de guardar datos dentro de una variable. Mientras que una variable puede contener un solo valor y de un solo tipo, un array permite guardar diferentes valores y de diferentes tipos.
+Cada valor guardado dentro de un array ocupa un espacio diferente y por eso permite guardar diferentes valores. La forma de acceder a estos diferentes espacios sucede ya que cada valor dentro de un array tiene un subíndice, que comienza por el 0.
+Así, un array que tiene un total de 4 valores guardados, la forma de acceder a ellos es a través de los subíndices 0, 1, 2 y 3 respectivamente.
+También un array puede contener dentro de si mismo otro array. Teniendo que marcar un segundo subíndice para este segundo arreglo.
