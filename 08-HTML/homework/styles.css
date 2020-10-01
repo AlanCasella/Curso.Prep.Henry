@@ -1,8 +1,8 @@
 h1 {color:blue}
 img {width: 400px;}
-thirdDiv {height: 600px; width: 500px;}
-thirdDiv {background: darkgreen;}
-spanId {font-size: 18px;}
-spanId {margin: 50px;}
-thirdDiv {padding: 50px;}
-thirdDiv {border: 5px lime solid;}
+#thirdDiv {height: 600px; width: 500px;}
+#thirdDiv {background: darkgreen;}
+#spanId {font-size: 18px;}
+#spanId {margin: 50px;}
+#thirdDiv {padding: 50px;}
+#thirdDiv {border: 5px lime solid;}

@@ -1,0 +1,7 @@
+Prototype: El prototype es un tipo de objeto padre que engloba a los objetos de javascript. Todas las variables, objetos, funciones, tienen referenciadas un objeto padre. Nosotros podemos manualmente declarar un objeto padre haciendo que tenga un prototype.
+Operar con prototypes nos permite que al usar métodos (es decir, funciones) no las repitamos por cada objeto que deseemos que tenga un método específico, ya que cada método (y por ende cada función) ocupa mucho espacio en memoria.
+De esta manera, si poseemos varios objetos que queremos que tengan un mismo método, podemos hacer que todos estos objetos hagan referencia a un mismo "objeto padre" que contenga un único método. Esto se realiza con la siguiente nomenclatura:
+"Objeto.prototype.nombre = function () {}" donde "objeto" es el nombre del objeto que queremos que sea el prototipo y "nombre" el nombre que deseamos darle a la función.
+Nota: Debido a que este método dentro del prototype no va a tener referencia a los objetos no prototipos, es necesario usar el keyword "this" dentro de la función.
+
+Constructores: Los constructores son funciones que cumplen un rol muy específico. Por un lado, nos crea una referencia similar a la de un objeto padre (prototype); y por otro lado, la función nos permite luego con una declaración mucho más simple, crear un nuevo objeto que herede las propiedades del objeto prototípico. Estos constructores también llevan el keyword "this" y también pueden contener métodos que luego hereden los nuevos objetos creados a partir de este constructor.

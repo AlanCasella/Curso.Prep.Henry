@@ -1,0 +1,2 @@
+Callback: Un callback es escencialmente una función, con la particularidad de que se encuentra dentro del argumento de otra función. El callback también puede poseer argumentos.
+Existen algunos métodos dentro de javascript que deben de manera obligatoria poseer un callback en sus argumentos.
